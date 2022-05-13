@@ -8,7 +8,7 @@
 body{
     background: rgb(226, 221, 221);
 }
-.start{
+.start,.rules{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,6 +27,49 @@ body{
     cursor: pointer;
 }
 .hero_btn:hover{
+    border:1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.rules{
+    background: white;
+    border-radius: 5px;
+    width: 500px;
+}
+.details{
+    width: 100%;
+    height: 100% ;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid darkgray;
+    display: flex;
+
+}
+.det1{
+    margin:5px 0;
+    font-size: 16px;
+     
+}
+#btn1{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+    border-top: 1px solid grey;
+    margin: 0 5px;
+    border: 1px solid whitesmoke;
+}
+.next{
+    width: 45px;
+    margin: 0 5px;
+    border: 1px solid lightgray;
+    background:lightblue ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+.next:hover{
     border:1px solid #f44336;
     background: #f44336;
     transition: 1s;
