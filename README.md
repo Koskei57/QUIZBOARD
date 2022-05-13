@@ -20,7 +20,7 @@ link=
 For one to use the website, you will have to git clone the repository link into your visual code and run the html file.
 
 This is achieved using:
-GIT CLONE:https://github.com/Koskei57/Quick-movers-website
+GIT CLONE:https://github.com/Koskei57/QUIZBOARD
 ## Technology-Used
 * Html and Cascading style sheet were employed during the structuring and styling of the web page. 
 * Javascript language to program the beahaviour of our website.
