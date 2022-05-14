@@ -65,3 +65,41 @@ nav img{
     font-size: 15px;
     font-weight: 30;
 }
+.head.title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+}
+.time{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    display: flex;
+}
+/*footer{
+    position: absolute;
+    top:400px;
+    left: 400px;
+    width: 700px;
+    padding: 50px;
+    margin: 0 5px;
+    background:rgb(212, 219, 221) ;
+    border-radius: 5px;    
+}
+footer,span{
+    display: flex;
+    user-select: none;
+
+}
+footer,span p{
+    font-weight: 500;
+    padding: 0 5px;
+
+}*/
