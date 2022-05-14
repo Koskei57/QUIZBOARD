@@ -83,6 +83,9 @@ nav img{
     top: 50px;
     display: flex;
 }
+.submit{
+    visibility: hidden;
+}
 /*footer{
     position: absolute;
     top:400px;
