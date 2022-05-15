@@ -79,6 +79,7 @@ nav img{
     border: lightgray;
     font-size: 17px;
 }
+/*hover effect*/
 .hero_btn:hover{
     border:1px solid #72f436;
     background: #3cf436;
