@@ -23,16 +23,14 @@ function confirm(){
     percentage = divided * 100;
     //grading the student
     if(percentage >= 80){        
-        document.write("Your score is:" + score + " You have Passed Excellently");
+        document.write("Your score is:"  + score + "  You have Passed Excellently");
     }
     else if(percentage >= 50 && percentage <=79){
-        document.write("Your score is:" + score + " You have fairly passed");
+        document.write("Your score is:" + score + "  You have fairly passed");
     }
     else{
-        document.write("Your score is:" + score + " You have failed.");
+        document.write("Your score is:" + score + "  You have failed.");
     }
-
-    console.log(percentage);
 }
 
 
