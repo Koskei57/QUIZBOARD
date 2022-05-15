@@ -1,8 +1,22 @@
 function confirm(){
-    var question1= document.ans.value;
-    var correct = 0;
-    if(question1=="Math.absa"){
-        correct++;}   
-    document.getElementById("submit").style.visibility="visible";
-    document.getElementById("button").innerHTML ="You got" +correct +"correct.";
+    var score=0;
+    if (document.getElementById("correct1").checked) {
+        score++;
+    }
+    if (document.getElementById("correct2").checked) {
+        score++;
+    }
+    if (document.getElementById("correct3").checked) {
+        score++;
+    }
+    if (document.getElementById("correct4").checked) {
+        score++;
+    }
+    if (document.getElementById("correct5").checked) {
+        score++;
+    }
+    document.write("Your score is:" + score);
+    alert("Tap Ok to view"); 
 }
+
+

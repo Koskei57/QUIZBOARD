@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color:rgb(216, 207, 207);
+    background-color:lightskyblue;
 }
 nav{
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: centre;
+    background-color: rgba(0, 0, 0, 0.671);
 }
 nav img{
     width: 150px;
@@ -27,7 +28,7 @@ nav img{
 
 }
 .nav-links ul li a{
-    color: rgb(5, 5, 5);
+    color:white;
     text-decoration: none;
     font-size: 20px;
 
@@ -83,8 +84,18 @@ nav img{
     top: 50px;
     display: flex;
 }
-.submit{
-    visibility: hidden;
+#button{
+    position: absolute;
+    right: 100px;
+    bottom: 1px;
+    border-left: 5px;
+    font-size: 17px;
+    border: 5px;
+    border-radius: 0px 5px;
+}
+#button:hover{
+    background: lightgreen;
+    cursor: pointer;
 }
 /*footer{
     position: absolute;
