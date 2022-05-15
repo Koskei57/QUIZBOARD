@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,200;1,300&display=swap');
 *{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,6 +47,10 @@ nav img{
     display: block;
     margin: auto;
     transition: 1s;
+}
+header{
+    width: 650px;
+    font-weight:bolder;
 }
 .questions{
     position: absolute;
@@ -98,14 +104,23 @@ nav img{
     cursor: pointer;
 }
 footer{
-    position: absolute;
-    top:650px;
-    left: 400px;
-    width: 100px;
-    padding: 50px; 
-}
-.foot{
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot span{
+    display: flex;
+    user-select: none;
+    position: absolute;
+    top: 780px;
+    left: 450px;
+    font-weight: bold;
+}
+.foot span p{
+    font-weight: 500;
+    padding: 0 5px;
 }
 
