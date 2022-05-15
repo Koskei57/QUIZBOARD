@@ -29,7 +29,7 @@ function confirm(){
         document.write("Your score is:" + score + "  You have fairly passed");
     }
     else{
-        document.write("Your score is:" + score + "  You have failed.");
+        document.write("Your score is:" + score + "  You have failed.Retake test");
     }
 }
 
